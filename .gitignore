@@ -1,0 +1,15 @@
+
+.gradle/*
+
+
+Gradle_XcodeSample.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+
+build/*
+
+
+
+Gradle_XcodeSample.xcodeproj/project.xcworkspace/xcuserdata/sassembla.xcuserdatad/UserInterfaceState.xcuserstate
+
+Gradle_XcodeSample.xcodeproj/xcuserdata/sassembla.xcuserdatad/xcschemes/Gradle_XcodeSample.xcscheme
+
+Gradle_XcodeSample.xcodeproj/xcuserdata/sassembla.xcuserdatad/xcschemes/xcschememanagement.plist
