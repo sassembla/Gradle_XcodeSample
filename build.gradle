@@ -1,0 +1,25 @@
+buildscript {
+	repositories {
+		maven {
+			url('http://openbakery.org/repository/')
+			//url uri('/tmp/repo')
+		}
+		mavenCentral()
+    }
+    dependencies {
+        classpath group: 'org.openbakery', name: 'xcodePlugin', version: '0.6.+'
+    }
+}
+
+
+apply plugin: 'xcode'
+
+buildscript {
+    configurations.classpath.resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
+xcodebuild {
+	sdk = 'iphonesimulator'
+	target = 'Gradle_XcodeSample'
+	unitTestTarget = 'Gradle_XcodeSampleTests'
+}
